@@ -38,8 +38,8 @@ spec:
         app: hello-world-service
     spec:
       containers:
-        - name: hello-world01
-          image: 050455579260.dkr.ecr.ap-south-1.amazonaws.com/test-demo:latest
+        - name: test-demo
+          image: 050455579260.dkr.ecr.ap-south-1.amazonaws.com/test-demo
           ports:
             - containerPort: 80
               name: http
